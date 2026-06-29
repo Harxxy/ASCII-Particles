@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+using std::vector;
 
 struct Particle {
     float x, y;       // position
@@ -7,4 +8,4 @@ struct Particle {
     char symbol;        // what character represents it on screen
 };
 
-void update(std::vector<Particle>& particles, float dt);
+void Update(vector<Particle>& particles, float dt);
