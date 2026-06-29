@@ -1,6 +1,5 @@
-#pragma once
 #include "particle.h"
-using namespace std;
+using std::vector;
 
 void Update(vector<Particle>& particles, float dt) {
     for (auto& p : particles) {
